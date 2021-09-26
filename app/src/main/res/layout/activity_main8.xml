@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:text="Pick up beach"
+        android:layout_marginLeft="30dp"
+        android:textSize="45dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Our adventures are as individual as the people who take them, with destination, themes and experiences adventures."/>
+
+    <Button
+        android:layout_width="79dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="580dp"
+        android:text="Jul 18"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:layout_width="79dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="580dp"
+        android:text="Jul 30"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:backgroundTint="@color/black" />
+
+    <Button
+        android:layout_width="79dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="580dp"
+        android:text="..."
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        app:backgroundTint="@color/ladrillo"/>
+</RelativeLayout>
